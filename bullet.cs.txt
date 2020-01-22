@@ -1,0 +1,17 @@
+Using ......
+Using ......
+Using Unity Engine;
+
+public class bullet:Monobehavior
+{
+		public Gameobject impacteffect;
+        
+ 
+	//we write at Short stage
+     // when bullet touch enemies 
+     void HitTarget ()
+	{
+		GameObject effectIns = (GameObject)Instantiate(impactEffect, transform.position, Destory(effectIns, 2f);
+		Destory(gameObject);
+	}
+}
